@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.bg-section{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.navbar{
+    display:flex;
+    padding: 40px 120px;     
+}
+.navbar-logo img{
+    
+    width: 100px;
+}
+.section-items{
+  
+    margin-left: 10px;
+}
+.nav-links{
+flex: 1;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+    }
+
+.nav-links ul li{
+ 
+ list-style: none;
+ display: inline-block;
+ padding: 15px 20px;   
+
+}
+
+
+.nav-links ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+           }
+           
+
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:orangered;
+    display: block;
+    margin: auto;
+    transition: .5s;
+    
+}           
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.btn-1{
+    
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orangered;
+    font-weight: bold;    
+    cursor: pointer;
+}
+.btn-2{
+    margin-top: 20px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orangered;
+    font-weight: bold;    
+    cursor: pointer;
+
+}
+.btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links .btn-1{
+    float: right;
+}
+
+.banner-title{
+     margin: 20px 120px;
+     color: #fff;
+}
+
+
+
+.banner-title h1 span{
+
+     color: orangered;
+}
+
+.vertical-bar{
+    height: 100%;
+    width: 5    0px;
+    background:white;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+
+}
+
+.search-icon{
+    height: 60%;
+    width: 80%;
+  
+}  
+
+.search-icon .fa{
+
+    margin: 45px 6px;
+    display: block;
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+
+.social-icon{
+    height: 35%;
+    width: 100%;
+    background: orangered;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+
+.social-icon .fa{
+
+    margin: 15px 6px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;    
+
+}
+.navbar .fa{
+display: none;
+        
+}
+
+#about-2 p{
+    color: white;
+}
+
+#about a {
+    padding: 2px 10px; 
+    color:blue"
+}
+
+
+#about-2 a{
+    color: gray;
+    text-decoration: none;
+}
+
+#menu p{
+    color: white;
+}
+
+#del-card h3{
+
+    font-weight: bold; 
+    color:orangered; 
+    margin-left: 10px;
+}
+
+
+#del-card p{
+    
+    
+    
+    color: black;
+}
+
+
+
+#del-card img{
+    height: 70px; 
+    width: 70px;
+    margin-top: 5px;
+}
+
+.fas {
+ 
+    color:white;
+    padding-left: 180px;
+    cursor: pointer;
+} 
+    
+
+.container label{
+    color: white;
+}
+
+
+
+.contact h1 span{
+
+    color: white;
+}
+@media(max-width:700px){
+    .vertical-bar{
+        display: none;
+    }
+
+    .banner-title{
+        margin: 80px 40px;
+
+    }
+    .banner-title h1{
+
+            font-size: 30px;
+        
+     }
+
+     .navbar{
+         padding: 10px  30px;
+     }
+
+     .fa-bars{
+         position: absolute;
+         right: 20px;
+        top: 10px;
+
+     }
+     .navbar .fa{
+         display: block;
+         color: #fff;
+         margin: 10px 25px;
+         font-size: 22px;
+         cursor: pointer;
+          
+     }
+     .nav-links{
+         height: 180vh;
+         width: 200px;
+         background:crimson;
+         top: 0;
+         right: -200px;
+         position: absolute;
+         text-align: left;
+         z-index: 2;
+     }
+     .nav-links ul  a{
+         display: block;
+     }
+     .nav-links .btn-1{
+         margin-left: 19px;
+         float  : none;
+        margin-top: 10px;
+    }
+
+    .nav-links ul li::after{
+           background: #000;
+    }
+   
+ .fas  {
+
+    color:black;
+    padding-left: 10px;
+    cursor: pointer;
+} 
+
+  
+
+    
+
+}
